@@ -69,8 +69,11 @@ php -S 0.0.0.0:$PORT -t .
 | `DB_PASSWORD`  | كلمة المرور   | `your_password` |
 | `DB_DATABASE`  | اسم القاعدة   | `hospital` |
 | `ENVIRONMENT`  | بيئة التشغيل  | `production` |
+| `BASE_URL`     | رابط الموقع (مهم لتحميل CSS/JS) | `https://hospital-1-dcj9.onrender.com/` |
 
 5. احفظ التغييرات (Save). سيتم إعادة نشر الخدمة تلقائياً في أغلب الأحيان.
+
+**ملاحظة:** إذا ظهر الموقع **بدون تنسيق (CSS)**، تأكد من إضافة **`BASE_URL`** بالقيمة الكاملة لرابط موقعك مع شرطة مائلة في النهاية (مثل `https://hospital-1-dcj9.onrender.com/`).
 
 ## إذا كانت الخدمة تعطيك رابط اتصال واحد (Connection URL)
 

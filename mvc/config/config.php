@@ -23,7 +23,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = (isset($_SERVER['HTTPS']) ? "https://" : "http://") . $_SERVER['HTTP_HOST'] . preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])) . '/';
+// Base URL: من متغير البيئة (مثل Render) أو من السيرفر مع دعم الـ proxy (X-Forwarded-*)
+if (($base = getenv('BASE_URL')) !== false && $base !== '') {
+	$config['base_url'] = rtrim($base, '/') . '/';
+} else {
+	$protocol = (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https')
+		|| (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+		? 'https://' : 'http://';
+	$host = !empty($_SERVER['HTTP_X_FORWARDED_HOST']) ? $_SERVER['HTTP_X_FORWARDED_HOST'] : (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'localhost');
+	$script_path = isset($_SERVER['SCRIPT_NAME']) ? dirname($_SERVER['SCRIPT_NAME']) : '';
+	$config['base_url'] = $protocol . $host . preg_replace('@/+$@', '', $script_path) . '/';
+}
 
 /*
 |--------------------------------------------------------------------------
