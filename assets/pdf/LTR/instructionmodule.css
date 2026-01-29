@@ -1,0 +1,142 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'devroye';
+    font-size: 16px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 29%, rgba(221,232,188,1) 80%, rgba(218,231,178,1) 98%, rgba(179,207,98,1) 100%, rgba(227,239,189,1) 100%, rgba(231,239,189,1) 100%);
+    color: #118BA1;
+}
+
+
+table td, table th {
+  border:0.1px solid #ddd;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+/*Header Css*/
+
+.report-header-area {
+    font-size: 16px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.report-logo-area {
+    float: left;
+    width: 20%;
+}
+
+.report-logo-img { 
+    width:100px;
+    height:100px;
+    text-align:center;
+    padding: 0px 8px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.report-title-area {
+    padding-top: 15px;
+    float: left;
+    width: 75%;
+}
+
+.report-title-area h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*Bottom Design*/
+.view-main-area-top-left {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.view-main-area-top-right {
+    width: 75%;
+    float: right;
+    font-size: 16px;
+}
+
+.view-main-area-top-img {
+    margin-top: 10px; 
+    width: 100px;
+    height: 120px;
+    border: 5px solid #ddd;
+}
+
+.single-user-info-item {
+    width: 100%;
+    line-height: 30px;
+}
+
+.single-user-info-label {
+    width: 25%;
+    float: left;
+    font-weight: bold;
+}
+
+.single-user-info-value {
+    width: 75%;
+    float: left;
+}
+
+/* Attendance */
+.view-main-area-bottom {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.media {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.media-img {
+    width: 12%;
+    float: left;
+}
+
+.media-img-width {
+    width: 60px;
+    height: 60px;
+}
+
+.media-body {
+    width: 80%;
+    float: left;
+}
+
+/*Footer Css*/
+.report-footer-area {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.report-footer-img {
+    width: 30px;
+    height: 30px;
+}
+
+.report-footer-copyright {
+    font-size: 12px;
+    margin:0px;
+    padding: 3px 0px;
+}

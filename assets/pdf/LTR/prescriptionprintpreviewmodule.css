@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'devroye';
+    font-size: 16px;
+    background: #fff;
+    color: #29292b;
+}
+
+table td, table th {
+  border:0.1px solid #ddd;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.pull-left { 
+    float: left; 
+    text-align: left;
+    width: 50%;
+    padding: 10px 0px;
+}
+
+.pull-right {
+    float: right; 
+    text-align: right;
+    width: 50%;
+    padding: 10px 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/*Header Css*/
+.report-header-area {
+    font-size: 16px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.report-logo-area {
+    float: left;
+    width: 20%;
+}
+
+.report-logo-img { 
+    width:100px;
+    height:100px;
+    text-align:center;
+    padding: 0px 8px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.report-title-area {
+    padding-top: 15px;
+    float: left;
+    width: 75%;
+}
+
+.report-title-area h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Profile*/
+.view-main-area-profile {
+    border-top: 2px solid #f0f3f6;
+    border-bottom: 2px solid #f0f3f6;
+    padding: 20px 0px;
+}
+
+.profile-view-item {
+    width: 50%;
+    float: left;
+    padding: 10px 0px;
+}
+
+.profile-view-item .profile-view-item-label {
+    width: 40%;
+    float: left;
+}
+.profile-view-item .profile-view-item-value {
+    width: 60%;
+    float: left;
+}
+
+/* Prescription */
+.view-main-area-prescription {
+    width: 100%;
+}
+
+.view-main-area-prescription-left {
+    width: 35%;
+    float: left;
+    padding: 20px 10px;
+    border-right: 2px solid #f0f3f6;
+}
+
+.prescription-single-group-item {
+    padding: 10px 0px;
+    line-height: 25px;
+}
+
+.prescription-left-text {
+    font-weight: bold;
+}
+
+.view-main-area-prescription-right {
+    width: 55%;
+    float: left;
+    padding: 20px 10px;
+}
+
+.view-main-area-prescription-right h2 {
+    margin-top: 10px;
+}
+
+.prescription-table td, .prescription-table th {
+  border:0px solid #ddd;
+}
+
+.prescription-table-span-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Prescription Bottom*/
+.prescription-footer-area {
+    border-top: 2px solid #f0f3f6;
+    padding: 20px 0px;
+}
+
+/*Footer Css*/
+.report-footer-area {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.report-footer-img {
+    width: 30px;
+    height: 30px;
+}
+
+.report-footer-copyright {
+    font-size: 12px;
+    margin:0px;
+    padding: 3px 0px;
+}

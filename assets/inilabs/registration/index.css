@@ -1,0 +1,42 @@
+
+.capture {
+    overflow: hidden;
+    padding: 0px 0px;
+}
+
+.main-capture {
+    overflow: hidden;
+    width: 100%;
+}
+
+.single-capture {
+    overflow: hidden;
+    width: 48%;
+    float: left;
+}
+
+.single-capture:first-child {
+    margin-right: 4%
+}
+
+#video {
+    width: 100%;
+    height: 145px;
+    float: left;
+    object-fit: fill;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+#canvas {
+    width: 100%;
+    height: 145px;
+    float: left;
+    object-fit: fill;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+#snap {
+    margin-top: 10px;
+}

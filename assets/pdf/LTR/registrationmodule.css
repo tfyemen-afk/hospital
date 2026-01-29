@@ -1,0 +1,155 @@
+.mainidcard {
+    overflow: hidden;
+}
+
+.idcard-frontend {
+    width: 400px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 0px auto;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    min-height: 278px;
+}
+
+.frontend-header {
+    color: #fff;
+    overflow: hidden;
+    background: #85CE36;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.frontend-logo {
+    float: left;
+    padding: 10px;
+    width: 15%;
+}
+
+.frontend-logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+.frontend-title {
+    float: left;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px;
+    overflow: hidden;
+    width: 75%;
+    padding-top:20px;
+}
+
+.frontend-body {
+    text-align: left;
+    padding: 10px;
+}
+
+.frontend-visiting-card {
+    color: green;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.frontend-photo {
+    width: 35%;
+    float: left;
+}
+
+.frontend-photo-img { 
+    width: 110px;
+    height: 120px;
+    border: 2px solid #85CE36;
+}
+
+.frontend-details {
+    width: 65%;
+    float: left;
+    font-size: 15px;
+}
+
+.frontend-name {
+    font-size: 20px;
+}
+
+.frontend-details p {
+    margin-bottom: 0px;
+    margin: 0px;
+    padding: 3px 0px;
+}
+
+.frontend-details p span {
+    color: blue;
+    font-weight: bold;
+}
+
+.frontend-footer {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    float: left;
+}
+
+.frontend-footerleft {
+    width: 30%;
+    float: left;
+    padding: 7px;
+    border-radius: 0px 15px;
+    background: #85CE36;
+}
+
+.frontend-footerright {
+    width: 60%;
+    float: left;
+    padding: 7px;
+    border-radius: 15px 0px;
+    background: #85CE36;
+    margin-left: 30px;
+}
+
+/*BackEnd*/
+
+.idcard-backend {
+    width: 400px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 0px auto;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    height: 278px;
+}
+
+.backend-item {
+    font-size: 14px;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.backend-label {
+    float: left;
+    color: blue;
+    width: 30%;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.backend-value {
+    float: left;
+    width: 70%;
+    display: inline-block;
+}
+
+.backend-address {
+    font-weight: bold;
+    padding-top: 80px;
+
+    position: relative;
+    float: left;
+    left: 0;
+}

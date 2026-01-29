@@ -1,0 +1,268 @@
+body {
+	font-family: 'devroye';
+	font-size:12px;
+	color:#707478;
+}
+
+.pull-left { 
+	float: left; 
+	text-align: left;
+	width: 35%;
+	margin: 0px;
+	padding: 10px 0px;
+}
+
+.pull-right {
+	float: right; 
+	text-align: right;
+	width: 35%;
+	margin: 0px;
+	padding: 10px 0px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/*Report Header Area*/
+.report-header-area {
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.report-logo-area {
+	float: left;
+	width: 45%;
+	text-align: right;
+}
+
+.report-logo-img { 
+	width:70px;
+	height:70px;
+	text-align:center;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+
+.report-title-area {
+	float: left;
+	width: 55%;
+}
+
+.report-title-area h2 {
+	padding: 0px;
+	margin: 5px;
+}
+
+.report-pulllabel {
+	font-size: 14px;
+}
+
+.reportfor h3 {
+	padding: 0px;
+	padding-top: 10px;
+	margin: 0px;
+	line-height: 18px;
+	font-size: 18px;
+}
+
+/*Report Body Area*/
+
+/*Frontend Card Report*/
+.idcard-frontend {
+    width: 324px;
+    padding: 0px;
+    margin: 0px auto;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    /*height: 204px !important;*/
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline;
+    float: left;
+}
+
+ .idcard-frontend-header {
+    color: #000;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.idcard-frontend-logo {
+    float: left;
+    width: 20%;
+    padding: 10px 0px;
+}
+
+.idcard-frontend-logo-img {
+    width: 42px;
+    height: 42px;
+}
+
+.idcard-frontend-title {
+    width: 80%;
+    float: left;
+    padding: 10px 0px;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 16px;
+    padding-top:22px;
+}
+
+.idcard-frontend-body {
+    text-align: left;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.idcard-frontend-visiting-card {
+    color: green;
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+.idcard-frontend-photo {
+    width: 35%;
+    float: left;
+}
+
+.idcard-frontend-photo-img { 
+    width: 74px;
+    height: 74px;
+}
+
+.idcard-frontend-details {
+    width: 65%;
+    float: left;
+    font-size: 12px;
+}
+
+.idcard-frontend-details p {
+    margin: 0px;
+    padding: 2px 0px;
+    margin-bottom: 0px;
+}
+
+.idcard-frontend-details p span {
+    color: blue;
+}
+
+.idcard-frontend-footer {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    margin-top: 5px;
+}
+
+.idcard-frontend-footerleft {
+    width: 30%;
+    float: left;
+    padding: 4px;
+    border-radius: 0px 15px;
+}
+
+.idcard-frontend-footerright {
+    width: 60%;
+    float: left;
+    padding: 4px;
+    border-radius: 15px 0px;
+    margin-left: 30px;
+}
+
+.mainbg .idcard-frontend-header {
+    background: #85CE36;
+    color: #fff;
+}
+
+.mainbg .idcard-frontend-photo-img {
+    border: 2px solid #85CE36;
+}
+
+.mainbg .idcard-frontend-footerleft {
+    background: #85CE36;
+}
+
+.mainbg .idcard-frontend-footerright {
+    background: #85CE36;
+}
+
+/*ID Card Report*/
+.idcard-backend {
+    width: 324px;
+    padding: 10px;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    height: 184px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+    position: relative;
+}
+
+.idcard-backend-item {
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.idcard-backend-label {
+    float: left;
+    color: blue;
+    width: 25%;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.idcard-backend-value {
+    float: left;
+    width: 75%;
+    display: inline-block;
+}
+
+.idcard-backend-address {
+    font-weight: bold;
+    float: left;
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+}
+
+.idcard-qrcode-img {
+    width: 70px;
+    height: 60px;
+    margin: 0px auto;
+    display: block;
+}
+
+/*Report Footer Area*/
+.report-footer-area {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.report-footer-img {
+	width: 30px;
+	height: 30px;
+}
+
+.report-footer-copyright {
+	font-size: 10px
+}
+
+/*Report Not Found Area*/
+.report-notfound {
+	text-align:center;
+	border:1px solid #ddd;
+	font-size: 20px;
+}

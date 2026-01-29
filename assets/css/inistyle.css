@@ -1,0 +1,403 @@
+
+.version-text {
+    display: inline-block;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.table-image-size {
+    height: 28px;
+    width: 28px;
+}
+
+.box-header.box-header-for-payroll {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    color: #000;
+}
+
+.box-header .box-title.box-title-for-payroll {
+    color: #1a2229;
+}
+
+.box.box-border {
+    border: 1px solid #eee;
+}
+.td-line-height-for-payroll {
+    line-height: 36px
+}
+
+.list-group-item.list-group-item-background {
+    background-color: #FFF;
+}
+
+.info-box p.margin {
+    margin:0 0 20px;
+}
+.payroll-margin-bottom {
+    margin-bottom: 10px;
+}
+
+.btn.btn-primary.view-btn {
+    text-decoration: none;
+}
+
+.btn.btn-primary.document {
+    margin-bottom: 10px;
+}
+
+.box-body.box-profile.box-border {
+    border:1px solid rgba(0, 0, 0, 0.125);
+    padding:7px;
+    border-radius:3px;
+}
+
+.profile-user-img.profile-height {
+    width:80px;
+    height:80px;
+}
+
+.profile-username.text-center.text-size {
+    font-size: 15px !important;
+}
+
+.list-group-item.list-group-item-margin {
+    margin-bottom:10px
+}
+
+.input-group-text.border {
+    border:1px solid #E2E7EB;
+}
+
+a.text-decoration {
+    text-decoration: none;
+}
+
+td.font-weight {
+    font-weight: bold
+}
+
+td.border-font-weight {
+    border: 0px;
+    font-weight: bold;
+}
+
+td.border-none {
+    border: 0px;
+}
+
+.btn.upload {
+    margin-top: 27px;
+    padding: 8.5px 12px;
+}
+
+.table tr.medicine-table-header {
+    background-color: #768593;
+    color:#ffffff
+}
+
+.table td.line-height {
+    line-height: 36px;
+    width: 70%;
+}
+
+div .col-margin-bottom {
+    margin-bottom: 10px !important;
+}
+
+.btn-xs.salary-btn {
+    padding: 8px 7px;
+    margin-right: 2px
+}
+
+.accountledgerreport td {
+    width: 50%;
+}
+
+.setting-fieldset {
+    border: 1px solid #DBDEE0 !important;
+    padding: 15px !important;
+    margin: 0 0 25px 0 !important;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+.setting-legend {
+    font-size: 1.1em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width: auto;
+    color: #428BCA;
+    padding: 5px 15px;
+    border: 1px solid #DBDEE0 !important;
+    margin: 0px;
+}
+
+.going-btn {
+    background-color:#0A75AF
+}
+
+.going-btn-disable {
+    background-color:#004B98
+}
+
+.ignores-btn {
+    background-color:#C23321
+}
+
+.ignores-btn-disable {
+    background-color:#B00303
+}
+
+.td-download-style {
+    text-decoration: none !important;
+    color:#28a745 !important;
+}
+
+td a .margin-delete {
+    margin-top:3px;
+}
+.display-none {
+    display: none;
+}
+
+.table.table-margin {
+    margin-top:10px !important;
+}
+
+.btn-medicine-delete.btn-padding {
+    padding:1px 3px;
+    font-size:14px;
+}
+
+.media-body a {
+     display: none;
+}
+
+.media-body:hover a {
+    display: inline-block;
+}
+
+.media.media-margin {
+    margin-bottom: 20px;
+}
+
+.media.media-margin > img.width {
+    width: 7% !important;
+}
+
+.media.media-margin > img.width-small {
+    width: 5% !important;
+}
+
+.media.media-margin > .media-body > h6.font-size {
+    font-size: 14px;
+}
+
+.media.media-margin > .media-body > span.font-size {
+    font-size: 12px;
+}
+
+.mainidcard {
+    overflow: hidden;
+}
+
+.list-group-item.list-group-item-border-none {
+    border: 0px;
+}
+
+.idcard-frontend {
+    width: 400px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 0px auto;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    min-height: 278px;
+}
+
+.frontend-header {
+    color: #fff;
+    overflow: hidden;
+    background: #85CE36;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.frontend-logo {
+    float: left;
+    padding: 10px;
+    padding-left: 15px;
+    width: 20%;
+}
+
+.frontend-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.frontend-title {
+    float: left;
+    font-size: 18px;
+    padding: 10px;
+    display: inline;
+    overflow: hidden;
+    width: 80%;
+    padding-top:20px;
+    line-height: 18px;
+}
+
+.frontend-body {
+    text-align: left;
+    padding: 10px;
+}
+
+.frontend-visiting-card {
+    color: green;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.frontend-photo {
+    width: 35%;
+    float: left;
+}
+
+.frontend-photo img {
+    width: 110px;
+    height: 120px;
+    border: 2px solid #85CE36;
+}
+
+.frontend-details {
+    width: 65%;
+    float: left;
+    font-size: 15px;
+}
+
+.frontend-details p {
+    margin-bottom: 0px;
+}
+
+.frontend-details p span {
+    color: blue;
+    font-weight: bold;
+}
+
+.frontend-footer {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    float: left;
+}
+
+.frontend-footerleft {
+    width: 30%;
+    float: left;
+    padding: 7px;
+    border-radius: 0px 15px;
+    background: #85CE36;
+}
+
+.frontend-footerright {
+    width: 60%;
+    float: left;
+    padding: 7px;
+    border-radius: 15px 0px;
+    background: #85CE36;
+    margin-left: 30px;
+}
+
+
+.idcard-backend {
+    width: 400px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 0px auto;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    min-height: 278px;
+    position: relative;
+}
+
+.backend-item {
+    font-size: 14px;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.backend-item span {
+    float: left;
+    color: blue;
+    width: 120px;
+    font-weight: bold;
+}
+
+.backend-address {
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+}
+
+.btn.btn-color-white {
+    color: #fff;
+}
+
+.icon.card-padding {
+    padding: 9.5px 18px 8px 18px;
+}
+
+
+.small-box > .small-box-footer > .inner > p.text-white.font-size {
+    font-size:16px;
+}
+
+.table.table-hover > td.profile-padding {
+    padding:10px 10px;
+}
+
+.card.sameheight-item > .card-block.no-padding {
+    padding: 0px;
+}
+.card.sameheight-item > .card-block.no-padding > .card-title-block.margin {
+    margin:20px 0px 20px 10px;
+}
+
+.global-white-background {
+    background-color: #fff;
+}
+
+
+@media print {
+    .printmargin {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    .user-profile-box {
+        width: 100% !important;
+        max-width: 100%;
+        flex: inherit;
+    }
+
+    .user-profile-details {
+        width: 100% !important;
+        max-width: 100%;
+        flex: inherit;
+        padding-left: 30px;
+        padding-right: 30px;
+        float: left;
+        overflow: hidden;
+    }
+
+    table.attendance-table {
+        width: 100% !important;
+    }
+
+    #mCSB_1_container {
+        width: 100% !important;
+    }
+}

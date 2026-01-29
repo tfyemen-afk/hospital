@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'devroye';
+    font-size: 16px;
+    background: #fff;
+    color: #29292b;
+}
+
+table td, table th {
+  border:0.1px solid #ddd;
+  text-align: left;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.pull-left { 
+    float: left; 
+    text-align: left;
+    width: 50%;
+    padding: 10px 0px;
+}
+
+.pull-right {
+    float: right; 
+    text-align: right;
+    width: 50%;
+    padding: 10px 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/*Header Css*/
+.report-header-area {
+    font-size: 16px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.report-logo-area {
+    float: left;
+    width: 20%;
+}
+
+.report-logo-img { 
+    width:100px;
+    height:100px;
+    text-align:center;
+    padding: 0px 8px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.report-title-area {
+    padding-top: 15px;
+    float: left;
+    width: 75%;
+}
+
+.report-title-area h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.receipt-feature-header-title {
+    font-weight: bold;
+    padding: 10px 0px;
+    font-size: 25px 
+}
+
+/*Body Area*/
+.view-main-area {
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.receipt-body table {
+    width: 100%;
+    text-align: left;
+}
+
+.receipt-body table td, .receipt-body table th {
+    border:none;
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.receipt-signature {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 100px
+}
+
+
+/*Footer Css*/
+.report-footer-area {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.report-footer-img {
+    width: 30px;
+    height: 30px;
+}
+
+.report-footer-copyright {
+    font-size: 12px;
+    margin:0px;
+    padding: 3px 0px;
+}

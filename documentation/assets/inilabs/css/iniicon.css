@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'iniicon';
+    src:  url('../fonts/iniicon.eot?i6olzo');
+    src:  url('../fonts/iniicon.eot?i6olzo#iefix') format('embedded-opentype'),
+    url('../fonts/iniicon.ttf?i6olzo') format('truetype'),
+    url('../fonts/iniicon.svg?i6olzo#iniicon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ini-"], [class*=" ini-"] {
+    font-family: 'iniicon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ini-accountledgerreport:before {
+    content: "\e900";
+}
+.ini-admission:before {
+    content: "\e901";
+}
+.ini-admissionreport:before {
+    content: "\e902";
+}
+.ini-ambulance:before {
+    content: "\e903";
+}
+.ini-ambulancecall:before {
+    content: "\e904";
+}
+.ini-ambulancereport:before {
+    content: "\e905";
+}
+.ini-appointment:before {
+    content: "\e906";
+}
+.ini-appointmentreport:before {
+    content: "\e907";
+}
+.ini-attendanceoverviewreport:before {
+    content: "\e908";
+}
+.ini-attendancereport:before {
+    content: "\e909";
+}
+.ini-bed:before {
+    content: "\e90a";
+}
+.ini-bedmanager:before {
+    content: "\e90b";
+}
+.ini-bedreport:before {
+    content: "\e90c";
+}
+.ini-bedtype:before {
+    content: "\e90d";
+}
+.ini-bill:before {
+    content: "\e90e";
+}
+.ini-billcategory:before {
+    content: "\e90f";
+}
+.ini-billlabel:before {
+    content: "\e910";
+}
+.ini-billreport:before {
+    content: "\e911";
+}
+.ini-birthregister:before {
+    content: "\e912";
+}
+.ini-blooddonor:before {
+    content: "\e913";
+}
+.ini-blooddonorreport:before {
+    content: "\e914";
+}
+.ini-bloodstock:before {
+    content: "\e915";
+}
+.ini-damageandexpire:before {
+    content: "\e916";
+}
+.ini-deathregister:before {
+    content: "\e917";
+}
+.ini-designation:before {
+    content: "\e918";
+}
+.ini-discharge:before {
+    content: "\e919";
+}
+.ini-dischargereport:before {
+    content: "\e91a";
+}
+.ini-emailsetting:before {
+    content: "\e91b";
+}
+.ini-employee:before {
+    content: "\e91c";
+}
+.ini-expense:before {
+    content: "\e91d";
+}
+.ini-expensereport:before {
+    content: "\e91e";
+}
+.ini-floor:before {
+    content: "\e91f";
+}
+.ini-frontendmenu:before {
+    content: "\e920";
+}
+.ini-idcardreport:before {
+    content: "\e921";
+}
+.ini-income:before {
+    content: "\e922";
+}
+.ini-incomereport:before {
+    content: "\e923";
+}
+.ini-instruction:before {
+    content: "\e924";
+}
+.ini-item:before {
+    content: "\e925";
+}
+.ini-itemcategory:before {
+    content: "\e926";
+}
+.ini-itemcheckin:before {
+    content: "\e927";
+}
+.ini-itemcheckout:before {
+    content: "\e928";
+}
+.ini-itemstore:before {
+    content: "\e929";
+}
+.ini-itemsupplier:before {
+    content: "\e92a";
+}
+.ini-leaveapplication:before {
+    content: "\e92b";
+}
+.ini-leaveapplicationreport:before {
+    content: "\e92c";
+}
+.ini-leaveapply:before {
+    content: "\e92d";
+}
+.ini-leaveassign:before {
+    content: "\e92e";
+}
+.ini-leavecategory:before {
+    content: "\e92f";
+}
+.ini-mainaccount:before {
+    content: "\e930";
+}
+.ini-mainadministrator:before {
+    content: "\e931";
+}
+.ini-mainambulance:before {
+    content: "\e932";
+}
+.ini-mainbedmanager:before {
+    content: "\e933";
+}
+.ini-mainbloodbank:before {
+    content: "\e934";
+}
+.ini-maininventory:before {
+    content: "\e935";
+}
+.ini-mainleaveapplication:before {
+    content: "\e936";
+}
+.ini-mainmedicaltest:before {
+    content: "\e937";
+}
+.ini-mainpatient:before {
+    content: "\e938";
+}
+.ini-mainpharmacy:before {
+    content: "\e939";
+}
+.ini-medicine:before {
+    content: "\e93a";
+}
+.ini-medicinecategory:before {
+    content: "\e93b";
+}
+.ini-medicinemanufacturer:before {
+    content: "\e93c";
+}
+.ini-medicinepurchase:before {
+    content: "\e93d";
+}
+.ini-medicinepurchasereport:before {
+    content: "\e93e";
+}
+.ini-medicinesale:before {
+    content: "\e93f";
+}
+.ini-medicinesalereport:before {
+    content: "\e940";
+}
+.ini-medicinestock:before {
+    content: "\e941";
+}
+.ini-medicineunit:before {
+    content: "\e942";
+}
+.ini-medicinewarehouse:before {
+    content: "\e943";
+}
+.ini-operationtheatre:before {
+    content: "\e944";
+}
+.ini-operationtheatrereport:before {
+    content: "\e945";
+}
+.ini-patient:before {
+    content: "\e946";
+}
+.ini-billpayment:before {
+    content: "\e947";
+}
+.ini-permission:before {
+    content: "\e948";
+}
+.ini-physicalcondition:before {
+    content: "\e949";
+}
+.ini-prescription:before {
+    content: "\e94a";
+}
+.ini-registration:before {
+    content: "\e94b";
+}
+.ini-resetpassword:before {
+    content: "\e94c";
+}
+.ini-role:before {
+    content: "\e94d";
+}
+.ini-room:before {
+    content: "\e94e";
+}
+.ini-salaryreport:before {
+    content: "\e94f";
+}
+.ini-test:before {
+    content: "\e950";
+}
+.ini-testcategory:before {
+    content: "\e951";
+}
+.ini-testlabel:before {
+    content: "\e952";
+}
+.ini-testreport:before {
+    content: "\e953";
+}
+.ini-tpa:before {
+    content: "\e954";
+}
+.ini-tpareport:before {
+    content: "\e955";
+}
+.ini-ward:before {
+    content: "\e956";
+}

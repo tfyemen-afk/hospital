@@ -1,0 +1,118 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: devroye;
+    font-size: 16px;
+    color: #118BA1;
+}
+
+table td, table th {
+  border:0.1px solid #ddd;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.main-certificate-area {
+    padding: 50px 30px 0px 30px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #212229 !important;
+    position: relative;
+}
+
+.transparent-bg-image {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-size: 250px 250px;
+    background-position: 50% 33%;
+    background-repeat: no-repeat;
+    background-image-opacity: 0.2;
+    z-index: -1;
+}
+
+.header-certificate-area h2{
+    font-size: 40px;
+    font-family: Canterbury;
+    margin: 0px;
+    padding: 0px;
+}
+.header-certificate-area p {
+    font-family: JmhSantaMaria;
+    line-height: 20px;
+    margin: 5px;
+}
+p.header-birth-certificate {
+    font-size: 45px!important;
+    padding: 40px;
+}
+
+.body-certificate-area {
+    font-family: PinyonScript;
+    position: relative;
+    z-index: 999
+}
+
+.body-certificate-top-area {
+    font-size: 30px;
+}
+
+.body-certificate-top-area strong {
+    font-family: JmhSantaMaria;
+}
+
+.body-certificate-top-area span {
+    padding: 0px 50px;
+    border-bottom: 1px dashed #040404;
+    color: #040404 !important; 
+}
+
+.body-certificate-bottom-area {
+    font-size: 30px;
+}
+
+.body-certificate-bottom-area strong {
+    font-family: JmhSantaMaria;
+}
+
+.body-certificate-bottom-text-area {
+    padding: 50px 0px 50px 250px;
+    line-height: 30px;
+}
+
+.footer-certificate-area {
+    overflow: hidden;
+    font-family: JmhSantaMaria;
+}
+
+.footer-certificate-bottom-signature-area {
+    overflow: hidden;
+    padding: 50px 0px 20px 0px;
+}
+
+.footer-certificate-bottom-signature-area span {
+    border-top: 2px dashed #040404;
+    width: 200px;
+    display: inline-block;
+}
+
+.footer-certificate-bottom-signature-left {
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+.footer-certificate-bottom-signature-right {
+    float: right;
+    text-align: center;
+    width: 50%;
+}

@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: devroye;
+    font-size: 16px;
+    background: #fff;
+    color: #29292b;
+}
+
+table td, table th {
+  border: 0.1px solid #ddd;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.pull-left { 
+    float: left; 
+    text-align: left;
+    width: 50%;
+    padding: 10px 0px;
+}
+
+.pull-right {
+    float: right; 
+    text-align: right;
+    width: 50%;
+    padding: 10px 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/*Header Css*/
+.report-header-area {
+    font-size: 16px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.report-logo-area {
+    float: left;
+    width: 20%;
+}
+
+.report-logo-img { 
+    width:100px;
+    height:100px;
+    text-align:center;
+    padding: 0px 8px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.report-title-area {
+    padding-top: 15px;
+    float: left;
+    width: 75%;
+}
+
+.report-title-area h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* bill */
+.view-main-area-bill {
+    width: 100%;
+    border-top: 2px solid #f0f3f6;
+    border-bottom: 2px solid #f0f3f6;
+}
+
+.view-main-area-bill-left {
+    width: 35%;
+    float: left;
+    padding: 20px 10px;
+}
+
+.single-bill-info {
+    padding: 10px 0px;
+    line-height: 25px;
+}
+
+.view-main-area-bill-right {
+    width: 58%;
+    float: left;
+    padding: 20px 10px;
+    border-left: 2px solid #f0f3f6;
+}
+
+.view-main-area-bill-right h2 {
+    margin-top: 10px;
+}
+
+.bill-table table {
+    float: left;
+    width: 100%;
+    border-collapse: collapse !important;
+    border-spacing: 0px;
+    font-size: 16px;
+    margin-top: 10px
+}
+
+.bill-table table tr td, .bill-table table tr th {
+    padding: 10px
+}
+
+
+.bill-created-by {
+    background: #ddd;
+    border: 1px solid #ddd;
+    float: right;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px
+}
+
+/*Footer Css*/
+.report-footer-area {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.report-footer-img {
+    width: 30px;
+    height: 30px;
+}
+
+.report-footer-copyright {
+    font-size: 12px;
+    margin:0px;
+    padding: 3px 0px;
+}
