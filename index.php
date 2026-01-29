@@ -54,8 +54,9 @@
  *     production
  *
  * NOTE: If you change these, also change the error_reporting() code below
+ * على Render: اضبط متغير البيئة ENVIRONMENT=production
  */
-	define('ENVIRONMENT', 'development');
+	define('ENVIRONMENT', getenv('ENVIRONMENT') ?: 'development');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING

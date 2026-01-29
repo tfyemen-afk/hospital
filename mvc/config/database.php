@@ -73,11 +73,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
+// قراءة إعدادات قاعدة البيانات من متغيرات البيئة (مثل Render / FreeSQLDatabase) أو استخدام القيم المحلية
+$db_host     = getenv('DB_HOST') ?: 'localhost';
+$db_user     = getenv('DB_USERNAME') ?: 'root';
+$db_pass     = getenv('DB_PASSWORD') ?: '';
+$db_name     = getenv('DB_DATABASE') ?: 'hospital';
+$db_port     = getenv('DB_PORT') ?: '3306';
+
+// إذا وُجد DATABASE_URL (مثل mysql://user:pass@host:3306/dbname) نستخدمه
+$database_url = getenv('DATABASE_URL');
+if ( ! empty($database_url) && preg_match('#^mysql://([^:]+):([^@]+)@([^:]+):(\d+)/(.+)$#', $database_url, $m)) {
+	$db_user = rawurldecode($m[1]);
+	$db_pass = rawurldecode($m[2]);
+	$db_host = $m[3];
+	$db_port = $m[4];
+	$db_name = trim($m[5], '/');
+}
+
+// إضافة المنفذ للـ hostname إن لم يكن مضافاً (مطلوب لبعض الاستضافات مثل FreeSQLDatabase)
+$db_host_with_port = (strpos($db_host, ':') === false) ? $db_host . ':' . $db_port : $db_host;
+
 $db['default']['dns'] = '';
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'hospital';
+$db['default']['hostname'] = $db_host_with_port;
+$db['default']['username'] = $db_user;
+$db['default']['password'] = $db_pass;
+$db['default']['database'] = $db_name;
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = FALSE;
