@@ -13,6 +13,23 @@ php -S 0.0.0.0:$PORT -t .
 - في لوحة Render: **Settings** → **Build & Deploy** → **Start Command** → الصق الأمر أعلاه.
 - إذا كان الحقل فارغاً أو خاطئاً، ستظهر رسالة مثل `command not found` أو `Exited with status 127`.
 
+### إذا ظهر خطأ `php: command not found`
+
+معناه أن بيئة التشغيل على Render **ليست PHP** (مثلاً الخدمة مُعدّة كـ Node). يمكنك:
+
+**الطريقة 1 — استخدام Docker (موصى بها):**
+
+1. في Render: **Settings** → **Build & Deploy**.
+2. في **Environment** اختر **Docker** (بدلاً من Native).
+3. احفظ ثم أعد النشر. المشروع يحتوي على `Dockerfile` يجعل PHP يعمل.
+
+**الطريقة 2 — تغيير الـ Runtime إلى PHP:**
+
+1. في Render: **Settings** → إذا وُجد خيار **Runtime** أو **Environment** فاختر **PHP**.
+2. احفظ ثم أعد النشر.
+
+بعد ذلك يجب أن يتوفر أمر `php` ويُنجح النشر.
+
 ## ملاحظة مهمة
 
 - **Render** يوفر قاعدة بيانات **PostgreSQL** افتراضياً.

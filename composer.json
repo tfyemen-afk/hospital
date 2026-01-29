@@ -1,0 +1,13 @@
+{
+    "name": "hospital/app",
+    "description": "Hospital Management System",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
