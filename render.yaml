@@ -1,0 +1,10 @@
+# إعداد النشر على Render - مشروع المستشفى (PHP)
+# راجع: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: hospital
+    runtime: php
+    # أمر البدء الصحيح: تشغيل خادم PHP المدمج
+    startCommand: php -S 0.0.0.0:$PORT -t .
+    # الجذر هو مجلد المشروع حيث يوجد index.php
