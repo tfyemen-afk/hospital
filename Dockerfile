@@ -9,6 +9,9 @@ RUN docker-php-ext-install mysqli
 # نسخ ملفات المشروع
 COPY . .
 
+# صلاحيات مجلد uploads ومجلداته الفرعية (مطلوب لصفحة التثبيت على Render)
+RUN chmod -R 777 uploads/
+
 # المنفذ يُحدد من متغير PORT على Render
 EXPOSE 8080
 

@@ -47,7 +47,7 @@ php -S 0.0.0.0:$PORT -t .
 1. **[PlanetScale](https://planetscale.com)** – MySQL مجاني للتجربة
 2. **[Railway](https://railway.app)** – يوفر MySQL
 3. **[Aiven](https://aiven.io)** – MySQL مدفوع له trial
-4. **[FreeSQLDatabase](https://www.freesqldatabase.com)** – MySQL مجاني محدود
+4. **[FreeSQLDatabaseimage.png* – MySQL مجاني محدود
 
 أنشئ قاعدة بيانات MySQL في أحد هذه الخدمات، ثم احصل على:
 - **Host** (مثال: `xxx.mysql.region.planetscale.io`)
