@@ -56,7 +56,11 @@
  * NOTE: If you change these, also change the error_reporting() code below
  * على Render: اضبط متغير البيئة ENVIRONMENT=production
  */
-	define('ENVIRONMENT', getenv('ENVIRONMENT') ?: 'development');
+	$env = strtolower(trim((string) (getenv('ENVIRONMENT') ?: 'development')));
+	if ( ! in_array($env, array('development', 'testing', 'production'), TRUE)) {
+		$env = 'development';
+	}
+	define('ENVIRONMENT', $env);
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
